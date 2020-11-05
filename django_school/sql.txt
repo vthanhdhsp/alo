@@ -1,0 +1,41 @@
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME' : 'uxsbvsvx',
+        'HOST' : 'rajje.db.elephantsql.com',
+        'USER' : 'uxsbvsvx',
+        'PASSWORD' :'W5pQeK8ZaOe1O97szSNNiHSkT35Y2H1U',
+        'PORT': '5432',
+    } 
+}
+34.68.211.135 //google.cloud
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'toa88391_toanthucte',
+        'USER': 'toa88391_thanh',
+        'PASSWORD': 'Anhthanh123456',
+        'HOST': '112.78.2.222',
+        'PORT': '3306',
+    }
+}
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'OPTIONS': {
+            'read_default_file': '/path/to/my.cnf',
+        },
+    }
+}
+
+# my.cnf
+[client]
+database = NAME
+user = USER
+password = PASSWORD
+default-character-set = utf8
